@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top_arrow{
+  width: 20px;
+  min-height: 20px;
+  background: red;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.step1_icon{
+  width: 132px;
+  height: 86px;
+  background-color: #ffffff;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/step1.png);
+}
+
+.step2_icon{
+  width: 180px;
+  height: 86px;
+  background-color: #1f373d;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/step2.png);
+}
+
+.step3_icon{
+  width: 179px;
+  height: 86px;
+  background-color: #1f373d;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/step3.png);
+}
+
+.shower_icon{
+  width: 11px;
+  height: 12px;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/shower.png);
+  margin: 0px 12px 0px 0px;
+}
+
+.bed_icon{
+  width: 18px;
+  height: 12px;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/bed.png);
+  margin: 0px 12px 0px 0px;
+}
+
+.phone_icon{
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  display: inline-block;
+  background: url(../images/phone.png);
+  margin-right: 32px;
+  position: relative;
+  top: 7px;
+}
+
+.nav_icon{
+  width: 20px;
+  height: 27px;
+  background-color: #ffffff;
+  display: inline-block;
+  background: url(../images/nav.png);
+  margin: 0px 31px 0px 66px;
+  position: relative;
+  top: 7px;
+}
+
+.search_icon{
+  width: 16px;
+  height: 15px;
+  background-color: #919eb1;
+  display: inline-block;
+  background: url(../images/search.png);
+}
+
+.header{
+
+}
+
+.container {
+  width: 1163px;
+  margin: 0px auto;
+}
+
+.top {
+  float: left;
+  width: 100%;
+  padding: 27px 57px 26px 0px;
+  box-sizing: border-box;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  background: #fff;
+  z-index: 1;
+}
+
+.logo{
+  float: left;
+}
+
+.logo a{
+  color: #1f373d;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.menu {
+  float: right;
+}
+
+.menu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.menu ul li {
+  float: left;
+  margin: 0px 12px 0px 0px;
+  padding: 14px 21px;
+}
+
+.menu ul li a {
+  color: #1f373d;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.menu ul li a {
+  color: #1f373d;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.menu ul li.join{
+  margin-left: 69px;
+}
+
+.menu ul li.started{
+  margin-left: 22px;
+  background: #ffcc01;
+  padding: 14px 21px;
+}
+
+.banner{
+  float: left;
+  width: 100%;
+  min-height: 630px;
+
+
+}
+
+.banner_text{
+  width: 580px;
+  margin-top: 152px;
+  position: absolute;
+  left: -190px;
+}
+
+.banner_text h3{
+    color: #1f373d;
+    font-family: "Montserrat";
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner_text form{
+    background: #fff;
+    width: 481px;
+    float: left;
+}
+
+.banner_text form input{
+    background: #fff;
+    margin-left: 14px;
+
+}
+
+.banner_text form button{
+    background: #ffcc01;
+    border: none;
+    float: right;
+    padding: 27px 30px;
+}
+
+.banner_text form p{
+  margin: 0px;
+
+}
+
+.banner_contacts{
+  width: 961px;
+  min-height: 631px;/*min чтобы отображался мин размер и растягивался от контента */
+  background-color: #96bece;
+  float: right;
+  margin-top: 140px;
+  position: relative;
+}
+
+.stat{
+  float: left;
+  width: 100%;
+  min-height: 430px;
+  margin-top: 144px;
+}
+
+.stat_text{
+  width: 536px;
+  min-height: 373px;
+  float: left;
+}
+
+.stat_text h3{
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.stat_text p{
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 13px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.stat_numbers{
+  width: 461px;
+  float: right;
+  background: #fff;
+}
+
+.stat_numbers_block{
+  text-align: center;
+  width: 201px;
+  margin:0px 0px 28px 29px;
+  padding: 67px 51px 72px 57px ;
+  background: #f6f5f4;
+  float: left;
+  box-sizing: border-box; /*внутренние отступы не изм размер блока*/
+}
+
+.yellow{
+  color: #ffcc01;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.stat_numbers_block p{
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.products{
+  width: 100%;
+  background: #f6f5f4;
+  float:left;
+  padding: 63px 0px 83px 0px;
+}
+
+.products h3{
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 50px;
+  width:400px;
+}
+
+.products_block{
+  width: 351px;
+  min-height: 381px;
+  margin-right: 30px;
+  margin-bottom: 34px;
+  background: #fff;
+  float: left;
+
+}
+
+.product_info{
+  width: 351px;
+  float:left;
+  background: #fff;
+  padding: 26px 21px 42px 22px;
+  box-sizing: border-box;
+}
+
+.product_info ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none; /*исчезнут маркеры*/
+  float: right;
+}
+
+.product_info ul li{
+    float: left; /*список примет горизонтальное положение*/
+    margin-left: 21px;
+}
+
+.location{
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.price{
+  color: #ffcc01;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 18px;
+  font-weight: 400;
+  float:left;
+}
+
+.contacts_info{
+
+  float:left;
+  padding: 29px 58px 27px 56px;
+  box-sizing: border-box;
+  background-color: #ffcc01;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.contacts_info ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none; /*исчезнут маркеры*/
+  float: right;
+}
+
+.contacts_info ul li{
+  float: left; /*список примет горизонтальное положение*/
+  color: #1f373d;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+
+  }
+
+  form {
+  margin: 0 auto;
+}
+input {
+  height: 71px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: #ffcc01;
+  color: black;
+}
+
+.services{
+  width: 100%;
+  float:left;
+  padding: 55px 0px 71px 0px;
+}
+
+.services h3{
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.services_text_block p{
+  width: 357px;
+  min-height: 73px;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 13px;
+  font-weight: 50px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 70px;
+}
+
+.services_steps_yellow{
+  width: 345px;
+  min-height: 374px;
+  background: #ffcc01;
+  float: left;
+  margin-right: 34px;
+}
+
+.services_steps{
+  width: 345px;
+  min-height: 374px;
+  background: #fffcc4;
+  float: left;
+  margin-right: 34px;
+}
+
+.step_icon_text_block{
+  width: 234px;
+  min-height: 176px;
+  margin: 62px 68px 50px 43px;
+}
+
+.step_icon_text_block_white{
+  width: 234px;
+  min-height: 176px;
+  margin: 62px 68px 50px 43px;
+}
+
+.step_icon_text_block_white p{
+  height: 14px;
+  color: #ffffff;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 18px;
+  float: left;
+  padding-right: 9px;
+}
+
+.step_icon_text_block p{
+  height: 14px;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 18px;
+  float: left;
+  padding-right: 9px;
+}
+
+
+.step_block_info{
+  width: 207px;
+  height: 73px;
+  margin: 38px 68px 5px 9px;
+}
+
+.step_block_info p{
+  line-height: 30px;
+  text-align: justify;
+  font-size: 13px;
+  float:left;
+}
+
+.services_text_block2{
+  float:left;
+  width: 100%;
+  padding-left: 111px;
+  box-sizing: border-box;
+}
+
+.services_text_block2 h3{
+  float:left;
+  width:100%;
+}
+
+.services_text_block2 p{
+  width: 357px;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 13px;
+  font-weight: 50px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 66px;
+}
+
+.blue_cube{
+  width: 651px;
+  min-height: 631px;
+  float: left;
+  background-color: #acd1e1;
+  /* что за отрицательные значения ?мне нужен был отступ, а он выходил за контейнер вроде
+
+  */
+}
+
+.right_text {
+  float: right;
+  width: 441px;
+}
+
+/* вот тут должно было быть это*/
+
+
+.services_text_block3{
+  width: 100%;
+  float:right;
+  width: 441px;
+  color: #1f373d;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+
+}
+
+.agents{
+  width: 100%;
+  float:left;
+  background-color: #f6f5f4;
+
+}
+
+.agents_text_block{
+  float:left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.agents_text_block h3{
+  float:left;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+  width:100%;
+}
+
+.agents_text_block p{
+  width: 357px;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 13px;
+  font-weight: 50px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 66px;
+}
+
+.agents_info_block{
+  float: left;
+  width: 350px;
+  min-height: 480px;
+  background-color: #ffffff;
+  margin: 63px 30px 96px 0px;
+}
+
+.agents_info{
+  float:left;
+  width: 351px;
+  min-height: 99px;
+}
+
+.name{
+  float:left;
+  color: #ffcc01;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.38px;
+  margin: 0px 57px 29px 23px;
+
+}
+
+.agent{
+  width: 100%;
+  float:left;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 15px;
+  font-weight: 400;
+  margin: 22px 0px 21px 23px;
+}
+
+.agents_info ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none; /*исчезнут маркеры*/
+  float: right;
+}
+
+.agents_info ul li{
+    float: left; /*список примет горизонтальное положение*/
+}
+
+.facebook_icon{
+  width: 8px;
+  height: 17px;
+  background-color: #1f373d;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/facebook.png);
+  margin: 0px 36px 0px 0px;
+}
+
+.twitter_icon{
+  width: 17px;
+  height: 14px;
+  background-color: #1f373d;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/twitter.png);
+  margin: 0px 31px 0px 0px;
+}
+
+.ball_icon{
+  width: 17px;
+  height: 17px;
+  background-color: #1f373d;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/ball.png);
+  margin-right: 22px;
+}
+
+.awesome_add{
+  float:left;
+  width:100%;
+  margin: 88px 0px 104px 0px;
+}
+
+.blue_block{
+  position: relative;
+  float: left;
+  width: 541px;
+  height: 331px;
+  background-color: #8da4be;
+  margin: 0px 127px 0px 0px;
+}
+
+.yellow_block{
+  float :left;
+  width: 336px;
+  min-height: 81px;
+  background-color: #ffcc01;
+  position: absolute;
+  bottom: -40px;
+  left: 110px;
+}
+
+.text_block{
+  float:right;
+  width:441px;
+  margin: 0px 0px 89px 0px;
+}
+
+.text_block h3{
+  float:left;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+  width:100%;
+}
+
+.text_block p{
+  width: 357px;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 13px;
+  font-weight: 50px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 66px;
+}
+
+.text_block_2{
+  float:left;
+  width:441px;
+  margin: 113px 0px 0px 0px;
+}
+
+.text_block_2 h3{
+  float:left;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+  width:100%;
+}
+
+.text_block_2 p{
+  width: 357px;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 13px;
+  font-weight: 50px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 66px;
+}
+
+.blue_block_2{
+    float: right;
+    width: 541px;
+    height: 331px;
+    background-color: #8da4be;
+    margin: 0px 80px 0px 0px;
+}
+
+.yellow_block_2{
+  float :left;
+  width: 336px;
+  min-height: 81px;
+  background-color: #ffcc01;
+  margin: 281px 0px 0px 261px;
+}
+
+.blue_block_3{
+  float: right;
+  width: 541px;
+  height: 331px;
+  background-color: #8da4be;
+  margin: 95px 180px 0px 0px;
+}
+
+.text_block_3{
+  float:right;
+  width:441px;
+  margin: 113px 0px 0px 0px;
+}
+
+.text_block_3 h3{
+  float:left;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 40px;
+  font-weight: 400;
+  width:100%;
+}
+
+.text_block_3 p{
+  width: 357px;
+  color: #1f373d;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 13px;
+  font-weight: 50px;
+  text-align: justify;
+  line-height: 30px;
+  margin: 66px 0px 10px 0px;
+}
+
+ {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: #1f373d;
+  width: 241px;
+  min-height: 81px;
+}
+
+.footer{
+  float:left;
+  width:100%;
+  min-height: 540px;
+  background-color: #1f373d;
+  padding-bottom: 81px;
+}
+
+.headline{
+  float:left;
+  width: 100%;
+  border-bottom: 1px solid #919eb1; /* размер, тип залики(это сплошной), цвет*/
+  margin-bottom: 85px;
+  padding-bottom: 48px;
+  margin-top: 64px;
+}
+
+.headline h3{
+  float:left;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 400px;
+  width: 372px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+.button_2{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: #fff;
+  width: 241px;
+  min-height: 81px;
+  float: right;
+  margin: 82px 2px 0px 261px;
+  width: 476px;
+  min-height: 71px;
+  padding: 29px 0px 31px 28px;
+}
+
+.arrow_icon{
+  width: 28px;
+  height: 13px;
+  background-color: #1f373d;
+  display: inline-block; /*из строчного в строчно-блочное(комбинированный), т е выглядит как строчный, но можно работать как с блочным*/
+  background: url(../images/arrow.png);
+  margin: 0px 28px 0px 192px;
+}
+
+._info{
+  float:left;
+  width: 100%;
+}
+
+.footer_info_name{
+  float:left;
+}
+
+.footer_info_name h3{
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 71px;
+}
+
+.footer_info_name p{
+  float:left;
+  color: #ffffff;
+  font-family: 'Work Sans', sans-serif; /*serif - это засечки*/
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.list{
+  float:left;
+}
+
+.list ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none; /*исчезнут маркеры*/
+}
+
+.list ul li a{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 120px;
+}
+
+.list p{
+  color: #919eb1;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 120px;
+  margin-bottom: 43px;
+
+}
+
+
+.super_block{
+  width: 100%;
+  float: left;
+}
+
+.footer_menu{
+  float:right;
+}
+
+.subscribe{
+  float: right;
+  background: #fff;
+}
+
+.subscribe input{
+  background: #fff;
+  padding: 29px 28px;
+  height: auto;
+}
+
+.subscribe button{
+  background: #fff;
+  border: none;
+
+
+}
